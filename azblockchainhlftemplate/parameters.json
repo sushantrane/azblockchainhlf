@@ -6,7 +6,7 @@
             "value": "southcentralus"
         },
         "virtualMachineName": {
-            "value": "demo-azblockchain-hlf"
+            "value": "azblockchainhlf"
         },
         "virtualMachineSize": {
             "value": "Standard_DS2_v2"
@@ -18,19 +18,25 @@
             "value": "azblockchain-vnet"
         },
         "networkInterfaceName": {
-            "value": "demo-azblockchain-hl524"
+            "value": "azblockchainhlf486"
         },
         "networkSecurityGroupName": {
-            "value": "demoazblockchainhlf910-nsg"
+            "value": "azblockchainhlf-nsg"
         },
         "adminPassword": {
             "value": null
         },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
         "subnetName": {
             "value": "default"
         },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
         "publicIpAddressName": {
-            "value": "demoazblockchainhlf827"
+            "value": "azblockchainhlf-ip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"

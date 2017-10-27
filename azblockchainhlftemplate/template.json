@@ -103,7 +103,7 @@
                     },
                     "fileUris": {
                         "value": [
-                            "https://iaasv2tempstoragesn.blob.core.windows.net/vmextensionstemporary-00067ffec2b36b3c-20171027033350954/configure-azureuser-hyperledgerfabric.sh?sv=2015-04-05&sr=c&sig=8o8MLbg%2BDzMp1gUkxY7%2FjMl1x82Mh5btmcN%2BbBDHc%2FQ%3D&se=2017-10-28T03%3A33%3A51Z&sp=rw"
+                            "https://github.com/sushantrane/azblockchainhlf/blob/master/CustomExtensionScript/configure-azureuser-hyperledgerfabric.sh"
                         ]
                     },
                     "commandToExecute": {
