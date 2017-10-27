@@ -50,3 +50,4 @@ cd /home/azureuser/work/marbles
 npm install gulp -g
 npm install
 echo "Fabric Installation Completed"
+

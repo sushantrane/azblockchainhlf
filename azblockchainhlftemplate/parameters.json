@@ -2,47 +2,17 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "location": {
-            "value": "southcentralus"
-        },
-        "virtualMachineName": {
-            "value": "azblockchainhlf"
-        },
-        "virtualMachineSize": {
-            "value": "Standard_DS2_v2"
-        },
-        "adminUsername": {
-            "value": "azureuser"
-        },
-        "virtualNetworkName": {
-            "value": "azblockchain-vnet"
-        },
-        "networkInterfaceName": {
-            "value": "azblockchainhlf486"
-        },
-        "networkSecurityGroupName": {
-            "value": "azblockchainhlf-nsg"
-        },
-        "adminPassword": {
-            "value": null
-        },
-        "addressPrefix": {
-            "value": "10.0.0.0/24"
-        },
-        "subnetName": {
-            "value": "default"
-        },
-        "subnetPrefix": {
-            "value": "10.0.0.0/24"
-        },
-        "publicIpAddressName": {
-            "value": "azblockchainhlf-ip"
-        },
-        "publicIpAddressType": {
-            "value": "Dynamic"
-        },
-        "publicIpAddressSku": {
-            "value": "Basic"
-        }
+      "username": {
+        "value": "azureuser"
+      },
+      "password": {
+        "value": "@zureBlockchain"
+      },
+      "vmSize": {
+        "value": "Standard_DS2_v2"
+      },
+      "dnsNameForPublicIP": {
+        "value": "azblockchainhlf"
+      }
     }
-}
+  }
