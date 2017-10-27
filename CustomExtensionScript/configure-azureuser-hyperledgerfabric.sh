@@ -9,8 +9,8 @@ mkdir work
 echo "---------------Installing GO------------------"
 apt-get update
 apt-get -y upgrade
- curl -O https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz
- tar -xzf go1.9.1.linux-amd64.tar.gz
+curl -O https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz
+tar -xzf go1.9.1.linux-amd64.tar.gz
 echo "--------------GO Installed--------------------"
 #Install Node 6.x and NPM
 echo "------------Installing Node.js----------------"
